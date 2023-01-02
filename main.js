@@ -199,7 +199,7 @@ function addPoints(data) {
         document.getElementById("sidebar-content").innerHTML =
           e.target.feature.properties.Address;
         document.getElementById("sidebar-content").innerHTML =
-          "<h3> Phone Number : </h3>" + e.target.feature.properties.Address +  "<br> <h3>Adress: xcx </h3>"+e.target.feature.properties.Address;
+          "<h3> Phone Number : </h3>" + e.target.feature.properties.Phone +  "<br> <h3>Adress: xcx </h3>"+e.target.feature.properties.Address;
 
 
 
